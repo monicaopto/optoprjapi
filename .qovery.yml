@@ -1,0 +1,15 @@
+---
+application:
+  name: "optoprjapi"
+  project: "optoproj-api"
+  organization: "QoveryCommunity"
+databases:
+- type: "MONGODB"
+  name: "monicaoptohub"
+  version: "4.4"
+routers:
+- name: "main-optoprjapi"
+  routes:
+  - application_name: "optoprjapi"
+    paths:
+    - "/*"
